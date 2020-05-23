@@ -1,69 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Cat-fe
 
-In the project directory, you can run:
+![](https://img.shields.io/badge/language-React-61DBFB.svg)
+![](https://img.shields.io/badge/environment-Node.js-3C873A.svg)
+![](https://img.shields.io/badge/database-PostgreSQL-336791.svg)
+![](https://img.shields.io/badge/Paas-Heroku-6762A6.svg)
 
-### `npm start`
+> ## A web app recognizing cat faces by inputting the address of cat photos
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./public/cat-fe_screenshot.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Features](#features)
+- [Learning_Objects](#learning_objects)
+- [Setup](#setup)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+* [Cat-fe Link](https://rathru3704.github.io/React_doppelganger/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Fetch JSON data from
+    * https://randomuser.me
+    * https://jsonplaceholder.typicode.com/
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Provide a seach box to search user names.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Style the interface by utilizing Tachyons.
 
-### `npm run eject`
+## Learning_Objects
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Deploy the front-end and RESTful API server connecting with database on Paas (Heroku).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Create client-side and server-side validation for layers of security.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Encrypt user password using hash algorithm.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Setup
 
-## Learn More
+* This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Please ensure you have them locally installed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Open Git Bash, change the current working directory and type `git clone` syntax:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```sh
+    $ git clone https://github.com/Rathru3704/React_Express_PostgreSQL_cat-fe.git
+    ```
 
-### Code Splitting
+* Use `npm install` to get all dependencies downloaded and start to run the app:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    ```sh
+    $ npm install
+    $ npm run start
+    ```
 
-### Analyzing the Bundle Size
+## Maintainers
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[@Rathru3704](https://github.com/Rathru3704)
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Please contribute! [Look at the issues](https://github.com/Rathru3704/React_Express_PostgreSQL_cat-fe/issues)<br />
+PRs accepted.
 
-### Advanced Configuration
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# JS_face-recognition
+[MIT](LICENSE) © Arthur Chang

@@ -1,0 +1,14 @@
+#viewer {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    height: 500px;
+    margin: auto;
+  }
+  
+#viewer > * {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}

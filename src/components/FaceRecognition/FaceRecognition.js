@@ -1,9 +1,15 @@
 import React from 'react';
+import './FaceRecognition.css';
 
-const FaceRecognition = ({imgUrl}) => {
+const FaceRecognition = () => {
     return(
         <div>
-           <img className='w-30-l w-60-m mb5' src={imgUrl} alt='cat'></img>
+            <div id="viewer-container" >
+                <div id="viewer" >
+                    <canvas id="preview"></canvas>
+                    <canvas id="annotations"></canvas>
+                </div>
+            </div>
         </div>
     );
 }
