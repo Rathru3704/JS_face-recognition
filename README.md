@@ -23,7 +23,7 @@
 
 ## Features
 
-* [Cat-fe Link](https://rathru3704.github.io/React_doppelganger/)
+* [Cat-fe Link](https://rathru3704.github.io/React_Express_PostgreSQL_cat-fe/)
 
 * Build Login form and store user information in database.
 
