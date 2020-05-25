@@ -1,12 +1,12 @@
 
-# Cat-fe
+# Cat-fe (Work in Process; deploy front-end and back-end on Paas)
 
 ![](https://img.shields.io/badge/language-React-61DBFB.svg)
 ![](https://img.shields.io/badge/environment-Node.js-3C873A.svg)
 ![](https://img.shields.io/badge/database-PostgreSQL-336791.svg)
 ![](https://img.shields.io/badge/Paas-Heroku-6762A6.svg)
 
-> ## A web app recognizing cat faces by inputting the address of cat photos
+> ## A web app recognizing cat faces by inputting the address of images
 <br>
 
 ![](./public/cat-fe_screenshot.png)
@@ -15,6 +15,7 @@
 
 - [Features](#features)
 - [Learning_Objects](#learning_objects)
+- [Sources](#sources)
 - [Setup](#setup)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
@@ -24,21 +25,23 @@
 
 * [Cat-fe Link](https://rathru3704.github.io/React_doppelganger/)
 
-* Fetch JSON data from
-    * https://randomuser.me
-    * https://jsonplaceholder.typicode.com/
+* Build Login form and store user information in database.
 
-* Provide a seach box to search user names.
+* Provide a seach box to search address of images.
 
-* Style the interface by utilizing Tachyons.
+* Style the interface with Tachyons.
 
 ## Learning_Objects
 
-* Deploy the front-end and RESTful API server connecting with database on Paas (Heroku).
+* Deploy the front-end and RESTful API server connecting with database on a cloud service provider (Heroku).
 
 * Create client-side and server-side validation for layers of security.
 
 * Encrypt user password using hash algorithm.
+
+## Sources
+
+* Face detection from [Kittydar](https://harthur.github.io/kittydar/)
 
 ## Setup
 
