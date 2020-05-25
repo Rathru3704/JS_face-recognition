@@ -197,13 +197,13 @@ class App extends Component {
         <Script url="/library/kittydar-0.1.0.min.js" />
         {/* /Silly-kitty-all-the-birds-went-south.jpg */}
         <LinkForm onChange={this.onChange} onClick={this.onClick} />
-        {/* <div id="viewer-container" >
+        <div id="viewer-container" >
           <div id="viewer" >
             <canvas id="preview"></canvas>
             <canvas id="annotations"></canvas>
           </div>
-        </div> */}
-        <FaceRecognition />
+        </div>
+        {/* <FaceRecognition /> */}
         {/* <Canvas /> */}
         <Particles className="particles" params={particleConfig} />
       </div>
