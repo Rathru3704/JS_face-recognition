@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React_Express_PostgreSQL_cat-fe/precache-manifest.b07a6bb1e29f59c6afb2030eed72ce2f.js"
+  "/React_Express_PostgreSQL_cat-fe/precache-manifest.a3bdb81329901a712e5ad759d36f5b49.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3781a2571950b55ead4a3792836b57f0",
+    "revision": "67045582052ffd490811d90772300d61",
     "url": "/React_Express_PostgreSQL_cat-fe/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Express_PostgreSQL_cat-fe/static/css/2.3b6f1bda.chunk.css"
   },
   {
-    "revision": "19c4c36b9373375437b2",
+    "revision": "9f9bbae5e43cfa9fa525",
     "url": "/React_Express_PostgreSQL_cat-fe/static/css/main.105f2ce9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Express_PostgreSQL_cat-fe/static/js/2.bed51db8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19c4c36b9373375437b2",
-    "url": "/React_Express_PostgreSQL_cat-fe/static/js/main.22c99289.chunk.js"
+    "revision": "9f9bbae5e43cfa9fa525",
+    "url": "/React_Express_PostgreSQL_cat-fe/static/js/main.426d4507.chunk.js"
   },
   {
     "revision": "263214614353b101b90f",
